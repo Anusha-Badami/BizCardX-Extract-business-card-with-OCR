@@ -4,17 +4,20 @@ EasyOCR is a Python library designed for Optical Character Recognition (OCR), en
 In my project, I've employed EasyOCR to extract text from business cards, facilitating the digitization of contact details and other relevant information.
 
 **Project Overview**
+
 I've developed BizCardX, an intuitive tool tailored for extracting data from business cards using OCR technology. This tool streamlines the process of capturing information from business cards and populating it into a SQL database. The extracted data is made accessible through a user-friendly graphical interface built with Streamlit.
 With BizCardX, users can easily upload a business card image, extract its information, view it in an organized format, and optionally store it in a database. Additionally, the stored data can be managed, updated, or deleted as per the user's requirements.
 
 
 **Libraries/Modules Used**
-Pandas: For creating and managing data in a DataFrame format.
-mysql.connector: To establish connections with the MySQL database for data storage and retrieval.
-Streamlit: For building the graphical user interface (GUI) of the application.
-EasyOCR: For extracting text from uploaded business card images.
+
+1. Pandas: For creating and managing data in a DataFrame format.
+2. SQLite3: To establish connections with the MySQL database for data storage and retrieval.
+3. Streamlit: For building the graphical user interface (GUI) of the application.
+4. EasyOCR: For extracting text from uploaded business card images.
 
 **Workflow**
+
 To use BizCardX for data extraction, follow these steps:
 Library Installation: Install the required libraries using pip.
 pip install [library_name]
