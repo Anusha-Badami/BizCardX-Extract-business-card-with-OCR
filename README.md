@@ -19,15 +19,15 @@ With BizCardX, users can easily upload a business card image, extract its inform
 **Workflow**
 
 To use BizCardX for data extraction, follow these steps:
-Library Installation: Install the required libraries using pip.
-pip install [library_name]
-Run the Application: Execute the BizCardX_main.py script with Streamlit.
-streamlit run BizCardX_main.py
-User Interface: The application displays a webpage with three main menu options: HOME, UPLOAD & EXTRACT, and MODIFY. Users can upload a business card image to extract its information.
-Text Extraction: EasyOCR processes the uploaded image to extract the text.
-Data Classification: The extracted text is classified into categories like company name, cardholder name, designation, contact details, and address using custom functions and regular expressions.
-Data Presentation: The classified data is presented on the screen for user review and editing.
-Database Interaction: Users can choose to upload the extracted data to a MySQL database by clicking the "Upload to Database" button. (Note: Connection details need to be provided for database interaction.)
-Data Management: The MODIFY menu allows users to perform Read, Update, and Delete operations on the data stored in the MySQL database.
+1. Library Installation: Install the required libraries using pip.
+2. pip install [library_name]
+3. Run the Application: Execute the BizCardX_main.py script with Streamlit.
+4. streamlit run BizCardX_main.py
+5. User Interface: The application displays a webpage with three main menu options: HOME, UPLOAD & EXTRACT, and MODIFY. Users can upload a business card image to extract its information.
+6. Text Extraction: EasyOCR processes the uploaded image to extract the text.
+7. Data Classification: The extracted text is classified into categories like company name, cardholder name, designation, contact details, and address using custom functions and regular expressions.
+8. Data Presentation: The classified data is presented on the screen for user review and editing.
+9. Database Interaction: Users can choose to upload the extracted data to a MySQL database by clicking the "Upload to Database" button. (Note: Connection details need to be provided for database interaction.)
+10. Data Management: The MODIFY menu allows users to perform Read, Update, and Delete operations on the data stored in the MySQL database.
 
 Feel free to explore BizCardX and streamline your business card data extraction and management process!
